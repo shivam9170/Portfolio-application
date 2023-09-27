@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio Application</title>
+  <style>
+    /* Basic Naming Conventions */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0; /* Light gray background color */
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center; /* Center align text in header */
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px; /* Increased margin for better spacing */
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold; /* Make navigation links bold */
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .work-item {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+
+    .work-item h3 {
+      color: #0077b6; /* Blue color for project titles */
+    }
+
+    .about-me {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .about-me p {
+      color: #333; /* Dark gray color for text */
+    }
+
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #0077b6;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="work">
+    <h2>Work</h2>
+    <div class="work-item">
+      <h3 style="color: #f89500;">Project 1</h3>
+      <p>To-Do Application</p>
+    </div>
+    <div class="work-item">
+      <h3 style="color: #f89500;">Project 2</h3>
+      <p>Calculator</p>
+    </div>
+    <div class="work-item">
+      <h3 style="color: #f89500;">Project 3</h3>
+      <p>Portfolio Application</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="about-me">
+      <p>My Name is Shivam Tiwari from CSE department. Currently, I am in the final year. I am skilled in JAVA, HTML, CSS, and DATA STRUCTURE.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name">
+      <input type="text" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Name</p>
+  </footer>
+</body>
+</html>
